@@ -1,6 +1,6 @@
 # osu! F2 Presser
 
-This simple C++ program simulates pressing the F2 key multiple times for the game osu!. It prompts the user to enter the number of times they want to press F2, then waits for the osu!.exe window to be focused before performing the key presses. Each F2 press has a pause of 300 milliseconds between them.
+This simple C++ program simulates pressing the F2 key multiple times for the game osu!. It prompts the user to enter the number of times they want to press F2, then waits for the osu!.exe window to be focused before performing the key presses. Each F2 press has a pause of 50 milliseconds between them.
 
 ## Compilation
 
