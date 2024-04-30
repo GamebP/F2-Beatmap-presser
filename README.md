@@ -7,7 +7,7 @@ This simple C++ program simulates pressing the F2 key multiple times for the gam
 You can compile the program using `g++` on the command line:
 
 ```
-g++ main.cpp -o osu_presser.exe
+g++ main_code.cpp -o osu_presser.exe
 ```
 
 Alternatively, you can use Visual Studio Code and compile from there.
