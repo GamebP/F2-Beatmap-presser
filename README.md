@@ -1,15 +1,33 @@
-# Random F2 Beatmap Selector
+# osu! F2 Presser
 
-This C++ application generates randomness based on user input and simulates pressing the F2 key a certain number of times.
+This simple C++ program simulates pressing the F2 key multiple times for the game osu!. It prompts the user to enter the number of times they want to press F2, then waits for the osu!.exe window to be focused before performing the key presses. Each F2 press has a pause of 300 milliseconds between them.
 
-## How to Use
+## Compilation
 
-1. Run the application.
-2. Enter a number 'n' between 3 and 30 when prompted.
-3. The application will calculate the number of times to press the F2 key based on the input.
-4. Sit back and watch as the F2 key is pressed automatically.
+You can compile the program using `g++` on the command line:
 
-## Dependencies
+```
+g++ main.cpp -o osu_presser.exe
+```
 
-- This application uses the `chrono` and `thread` libraries for time-related functionality.
-- It also uses the `_kbhit()` and `_getch()` functions from the `conio.h` library for keyboard input.
+Alternatively, you can use Visual Studio Code and compile from there.
+
+## Usage
+
+1. Run the compiled `osu_presser.exe`.
+2. Enter the number of times you want to press F2 when prompted.
+3. Make sure the osu!.exe window is focused.
+4. The program will then simulate pressing F2 the specified number of times.
+
+## Requirements
+
+- Windows OS
+- osu! installed
+
+## Disclaimer
+
+This program is intended for educational purposes only. Use it responsibly and do not use it to violate the rules of any game.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
